@@ -1,0 +1,111 @@
+a{
+    text-decoration: none !important;
+}
+.hero-bg a:hover{
+    color: black;
+}
+.hero-bg{
+    background-color: #212529!important;
+
+    height: 50vh;
+    background-size: cover;
+    background-position: top;
+}   
+.hero-demo{
+    background-color: rgb(254, 209, 60);
+    border-radius: 30px;
+    color: rgb(18, 66, 97);
+}
+.hero-register{
+    background-color: white;
+    border-radius: 30px;
+    color: rgb(42, 175, 161);
+}
+.hero-subtext{
+    color: darkred;
+}
+
+
+.why-vedic{
+    background-color: #00aae1;
+}
+.course{
+    background-color: lightcyan;
+}
+.course h2{
+    color:rgb(18, 66, 97);
+}
+
+.course-live{
+    background-color: rgb(42, 175, 161);
+    border-radius: 30px;
+    color: white;
+}
+.course-recorded{
+    background-color:rgb(18, 66, 97); ;
+    border-radius: 30px;
+    color: white;
+}
+
+.course a:hover{
+    color:white;
+}
+.course-img{
+    border-radius: 5rem;
+}
+
+.features{
+    
+    background-color: rgb(18, 66, 97);
+
+}
+.features h2{
+    color:white;
+}
+
+.features .card {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.07);
+    border: none;
+}
+
+
+.purchase h2{
+    color:rgb(18, 66, 97);
+}
+.purchase p{
+    color:rgb(102,102,102);
+}
+.fa-star{
+    color: gold;
+}
+.purchase{
+    background-color: rgb(245, 250, 255);
+}
+
+.purchase .card {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.07);
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.card-footer{
+    background: transparent;
+}
+.price-tag{
+    
+    background: white;
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    top: 15px;
+    border-radius: 8px;
+
+}
+
+.learn h2{
+    color:rgb(18, 66, 97);
+}
+.purchase {
+    background-color: lightsteelblue;
+}
