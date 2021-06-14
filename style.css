@@ -139,6 +139,8 @@ a{
     position:fixed;
     right:35px;
     bottom:100px;
+    width:350px;
+    
 }
 
 .chatbox-heading img{
@@ -148,7 +150,6 @@ a{
 .chatbox-screen{
     overflow-y: scroll;
     background: #f9f9f9;
-    width:350px;
     height:350px;
     box-shadow: var(--primaryBoxShadow);
 }
