@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./chatbox/chatbox.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
@@ -12,8 +13,138 @@
 </head>
 
 <body>
-    <section>
+    <div class="container">
+        <div class="chatbox magictime puffIn">
+            <div class="chatbox-heading">
+                <img src="image.png" alt="" class="bg-image" width="40px">
+                <span class="py-2 mx-2 text-white">SWAR ChatBot</span>
+                <div class="float-end">
+                    <button class="btn text-white" onclick="toggle()"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                            <path
+                                d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="chatbox-screen">
 
+                <div class="chatbox-body">
+                    <div>
+                        <div class="message bot">
+                            <img src="./image.png" alt="codebugged" width="25px" class="">
+                            Hello! How can I help you?
+                        </div>
+                        <div class="message user">
+                            Hello, Ashu here.
+                        </div>
+                        <div class="message bot">
+                            <img src="./image.png" alt="codebugged" width="25px" class="">
+                            Hello Ashu, What can i do for you?
+                        </div>
+                        <div class="message user">
+                            Provide me all the details regarding Codebugged.
+                        </div>
+                        <div class="message bot">
+                            <img src="./image.png" alt="codebugged" width="25px" class="">
+                            Hello! How can I help you?
+                        </div>
+                        <div class="message user">
+                            Hello, Ashu here.
+                        </div>
+                        <div class="message bot">
+                            <img src="./image.png" alt="codebugged" width="25px" class="">
+                            Hello Ashu, What can i do for you?
+                        </div>
+                        <div class="message user">
+                            Provide me all the details regarding Codebugged.
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer d-flex flex-column align-items-center">
+                <div class="d-flex flex-row align-items-center">
+                    <div class="mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-paperclip text-white " viewBox="0 0 16 16">
+                            <path
+                                d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-images text-white" viewBox="0 0 16 16">
+                            <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                            <path
+                                d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z" />
+                        </svg>
+                    </div>
+                    <input type="text" class="px-2 mx-2" placeholder="Enter your query...">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cursor-fill text-white mx-2" viewBox="0 0 16 16">
+                        <path
+                            d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z" />
+                    </svg>
+                </div>
+                <div>
+                    <span class="text-white" style="font-size:x-small;">Powered by <strong>SWAR AI</strong></span>
+                </div>
+            </div>
+        </div>
+        <div class="chatbot-icon">
+            <button onclick="toggle()">
+                <img src=" image.png" alt="" width="35px" id="img1">
+            </button>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="chatbox">
+                <div class="chatbox__support">
+                    <div class="chatbox__header">
+                        <div class="chatbox__image--header">
+                            <img src="./images/image.png" alt="image">
+                        </div>
+                        <div class="chatbox__content--header">
+                            <h4 class="chatbox__heading--header">Swar AI</h4>
+                            <p class="chatbox__description--header">SWAR is a Conversational AI and CRM Product by
+                                Codebugged that enhances the customer interaction.</p>
+                        </div>
+                    </div>
+                    <div class="chatbox__messages">
+                        <div>
+                            <div class="messages__item messages__item--visitor">
+                                Welcome to SWAR! How may I assist you today?
+                            </div>
+                            <div class="messages__item messages__item--operator">
+                                Can you tell me something about Codebugged?
+                            </div>
+                            <div class="messages__item messages__item--visitor">
+                                Hello! What would you like to know?👀
+                            </div>
+                            <div class="messages__item messages__item--operator">
+                                What is Codebugged AI?
+                            </div>
+                            <div class="messages__item messages__item--typing">
+                                <span class="messages__dot"></span>
+                                <span class="messages__dot"></span>
+                                <span class="messages__dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chatbox__footer">
+                        <img src="./images/icons/emojis.svg" alt="">
+                        <img src="./images/icons/microphone.svg" alt="">
+                        <input type="text" placeholder="Write a message...">
+                        <p class="chatbox__send--footer">Send</p>
+                        <img src="./images/icons/attachment.svg" alt="">
+                    </div>
+                </div>
+                <div class="chatbox__button">
+                    <button>button</button>
+                </div>
+            </div>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -352,7 +483,7 @@
 
 
     </section>
-
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
